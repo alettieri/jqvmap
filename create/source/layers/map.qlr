@@ -1,0 +1,2400 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group checked="Qt::Checked" name="" expanded="1" groupLayer="">
+    <customproperties>
+      <Option/>
+    </customproperties>
+    <layer-tree-layer providerKey="ogr" patch_size="-1,-1" source="../NE_CountryAdm0.shx|layername=NE_CountryAdm0" checked="Qt::Checked" legend_exp="" id="NE_CountryAdm0_e6f22de5_7669_4d7c_b66c_9e10364acc14" name="NE_CountryAdm0" expanded="1" legend_split_behavior="0">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" readOnly="0" geometry="Polygon" simplifyDrawingHints="1" autoRefreshTime="0" simplifyLocal="1" simplifyDrawingTol="1" labelsEnabled="0" simplifyMaxScale="1" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" refreshOnNotifyMessage="" wkbType="MultiPolygon" maxScale="0" autoRefreshEnabled="0" minScale="100000000" type="vector" legendPlaceholderImage="" simplifyAlgorithm="0">
+      <extent>
+        <xmin>-180</xmin>
+        <ymin>-55.61182999999999765</ymin>
+        <xmax>180.00000000000005684</xmax>
+        <ymax>83.64513000000000886</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-180</xmin>
+        <ymin>-55.61182999999999765</ymin>
+        <xmax>180.00000000000005684</xmax>
+        <ymax>83.64513000000000886</ymax>
+      </wgs84extent>
+      <id>NE_CountryAdm0_e6f22de5_7669_4d7c_b66c_9e10364acc14</id>
+      <datasource>../NE_CountryAdm0.shx|layername=NE_CountryAdm0</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>NE_CountryAdm0</layername>
+      <srs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys nativeFormat="Wkt">
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal endExpression="" enabled="0" startExpression="" durationField="" fixedDuration="0" accumulate="0" endField="" startField="" mode="0" limitMode="0" durationUnit="min">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <elevation extrusion="0" respectLayerSymbol="1" extrusionEnabled="0" zoffset="0" binding="Centroid" clamping="Terrain" symbology="Line" zscale="1" showMarkerSymbolInSurfacePlots="0" type="IndividualFeatures">
+        <data-defined-properties>
+          <Option type="Map">
+            <Option value="" name="name" type="QString"/>
+            <Option name="properties"/>
+            <Option value="collection" name="type" type="QString"/>
+          </Option>
+        </data-defined-properties>
+        <profileLineSymbol>
+          <symbol clip_to_extent="1" force_rhr="0" frame_rate="10" alpha="1" name="" type="line" is_animated="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" name="name" type="QString"/>
+                <Option name="properties"/>
+                <Option value="collection" name="type" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" pass="0" locked="0" class="SimpleLine">
+              <Option type="Map">
+                <Option value="0" name="align_dash_pattern" type="QString"/>
+                <Option value="square" name="capstyle" type="QString"/>
+                <Option value="5;2" name="customdash" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="customdash_map_unit_scale" type="QString"/>
+                <Option value="MM" name="customdash_unit" type="QString"/>
+                <Option value="0" name="dash_pattern_offset" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="dash_pattern_offset_map_unit_scale" type="QString"/>
+                <Option value="MM" name="dash_pattern_offset_unit" type="QString"/>
+                <Option value="0" name="draw_inside_polygon" type="QString"/>
+                <Option value="bevel" name="joinstyle" type="QString"/>
+                <Option value="152,125,183,255" name="line_color" type="QString"/>
+                <Option value="solid" name="line_style" type="QString"/>
+                <Option value="0.6" name="line_width" type="QString"/>
+                <Option value="MM" name="line_width_unit" type="QString"/>
+                <Option value="0" name="offset" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
+                <Option value="MM" name="offset_unit" type="QString"/>
+                <Option value="0" name="ring_filter" type="QString"/>
+                <Option value="0" name="trim_distance_end" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="trim_distance_end_map_unit_scale" type="QString"/>
+                <Option value="MM" name="trim_distance_end_unit" type="QString"/>
+                <Option value="0" name="trim_distance_start" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="trim_distance_start_map_unit_scale" type="QString"/>
+                <Option value="MM" name="trim_distance_start_unit" type="QString"/>
+                <Option value="0" name="tweak_dash_pattern_on_corners" type="QString"/>
+                <Option value="0" name="use_custom_dash" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="width_map_unit_scale" type="QString"/>
+              </Option>
+              <prop v="0" k="align_dash_pattern"/>
+              <prop v="square" k="capstyle"/>
+              <prop v="5;2" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="MM" k="customdash_unit"/>
+              <prop v="0" k="dash_pattern_offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="dash_pattern_offset_map_unit_scale"/>
+              <prop v="MM" k="dash_pattern_offset_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="152,125,183,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="0.6" k="line_width"/>
+              <prop v="MM" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0" k="ring_filter"/>
+              <prop v="0" k="trim_distance_end"/>
+              <prop v="3x:0,0,0,0,0,0" k="trim_distance_end_map_unit_scale"/>
+              <prop v="MM" k="trim_distance_end_unit"/>
+              <prop v="0" k="trim_distance_start"/>
+              <prop v="3x:0,0,0,0,0,0" k="trim_distance_start_map_unit_scale"/>
+              <prop v="MM" k="trim_distance_start_unit"/>
+              <prop v="0" k="tweak_dash_pattern_on_corners"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileLineSymbol>
+        <profileFillSymbol>
+          <symbol clip_to_extent="1" force_rhr="0" frame_rate="10" alpha="1" name="" type="fill" is_animated="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" name="name" type="QString"/>
+                <Option name="properties"/>
+                <Option value="collection" name="type" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" pass="0" locked="0" class="SimpleFill">
+              <Option type="Map">
+                <Option value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale" type="QString"/>
+                <Option value="152,125,183,255" name="color" type="QString"/>
+                <Option value="bevel" name="joinstyle" type="QString"/>
+                <Option value="0,0" name="offset" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
+                <Option value="MM" name="offset_unit" type="QString"/>
+                <Option value="109,89,131,255" name="outline_color" type="QString"/>
+                <Option value="solid" name="outline_style" type="QString"/>
+                <Option value="0.2" name="outline_width" type="QString"/>
+                <Option value="MM" name="outline_width_unit" type="QString"/>
+                <Option value="solid" name="style" type="QString"/>
+              </Option>
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="152,125,183,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="109,89,131,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.2" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileFillSymbol>
+        <profileMarkerSymbol>
+          <symbol clip_to_extent="1" force_rhr="0" frame_rate="10" alpha="1" name="" type="marker" is_animated="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" name="name" type="QString"/>
+                <Option name="properties"/>
+                <Option value="collection" name="type" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" pass="0" locked="0" class="SimpleMarker">
+              <Option type="Map">
+                <Option value="0" name="angle" type="QString"/>
+                <Option value="square" name="cap_style" type="QString"/>
+                <Option value="152,125,183,255" name="color" type="QString"/>
+                <Option value="1" name="horizontal_anchor_point" type="QString"/>
+                <Option value="bevel" name="joinstyle" type="QString"/>
+                <Option value="diamond" name="name" type="QString"/>
+                <Option value="0,0" name="offset" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
+                <Option value="MM" name="offset_unit" type="QString"/>
+                <Option value="109,89,131,255" name="outline_color" type="QString"/>
+                <Option value="solid" name="outline_style" type="QString"/>
+                <Option value="0.2" name="outline_width" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale" type="QString"/>
+                <Option value="MM" name="outline_width_unit" type="QString"/>
+                <Option value="diameter" name="scale_method" type="QString"/>
+                <Option value="3" name="size" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="size_map_unit_scale" type="QString"/>
+                <Option value="MM" name="size_unit" type="QString"/>
+                <Option value="1" name="vertical_anchor_point" type="QString"/>
+              </Option>
+              <prop v="0" k="angle"/>
+              <prop v="square" k="cap_style"/>
+              <prop v="152,125,183,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="diamond" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="109,89,131,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.2" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="3" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileMarkerSymbol>
+      </elevation>
+      <renderer-v2 forceraster="0" referencescale="-1" enableorderby="0" symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol clip_to_extent="1" force_rhr="0" frame_rate="10" alpha="1" name="0" type="fill" is_animated="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" name="name" type="QString"/>
+                <Option name="properties"/>
+                <Option value="collection" name="type" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" pass="0" locked="0" class="SimpleFill">
+              <Option type="Map">
+                <Option value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale" type="QString"/>
+                <Option value="231,113,72,255" name="color" type="QString"/>
+                <Option value="bevel" name="joinstyle" type="QString"/>
+                <Option value="0,0" name="offset" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
+                <Option value="MM" name="offset_unit" type="QString"/>
+                <Option value="35,35,35,255" name="outline_color" type="QString"/>
+                <Option value="solid" name="outline_style" type="QString"/>
+                <Option value="0.26" name="outline_width" type="QString"/>
+                <Option value="MM" name="outline_width_unit" type="QString"/>
+                <Option value="solid" name="style" type="QString"/>
+              </Option>
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="231,113,72,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <Option/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend showLabelLegend="0" type="default-vector"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field configurationFlags="None" name="featurecla">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="scalerank">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="LABELRANK">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="SOVEREIGNT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="SOV_A3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_DIF">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="LEVEL">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="TYPE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="TLC">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADMIN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="GEOU_DIF">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="GEOUNIT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="GU_A3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="SU_DIF">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="SUBUNIT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="SU_A3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="BRK_DIFF">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME_LONG">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="BRK_A3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="BRK_NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="BRK_GROUP">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ABBREV">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="POSTAL">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FORMAL_EN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FORMAL_FR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME_CIAWF">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NOTE_ADM0">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NOTE_BRK">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME_SORT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME_ALT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="MAPCOLOR7">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="MAPCOLOR8">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="MAPCOLOR9">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="MAPCOLOR13">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="POP_EST">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="POP_RANK">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="POP_YEAR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="GDP_MD">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="GDP_YEAR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ECONOMY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="INCOME_GRP">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FIPS_10">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ISO_A2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ISO_A2_EH">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ISO_A3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ISO_A3_EH">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ISO_N3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ISO_N3_EH">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="UN_A3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="WB_A2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="WB_A3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="WOE_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="WOE_ID_EH">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="WOE_NOTE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_ISO">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_DIFF">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_TLC">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3_US">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3_FR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3_RU">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3_ES">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3_CN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3_TW">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3_IN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3_NP">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3_PK">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3_DE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3_GB">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3_BR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3_IL">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3_PS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3_SA">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3_EG">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3_MA">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3_PT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3_AR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3_JP">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3_KO">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3_VN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3_TR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3_PL">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3_GR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3_IT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3_NL">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3_SE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3_BD">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3_UA">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3_UN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ADM0_A3_WB">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="CONTINENT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="REGION_UN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="SUBREGION">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="REGION_WB">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME_LEN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="LONG_LEN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ABBREV_LEN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="TINY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="HOMEPART">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="MIN_ZOOM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="MIN_LABEL">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="MAX_LABEL">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="LABEL_X">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="LABEL_Y">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NE_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="WIKIDATAID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME_AR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME_BN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME_DE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME_EN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME_ES">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME_FA">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME_FR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME_EL">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME_HE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME_HI">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME_HU">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME_IT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME_JA">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME_KO">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME_NL">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME_PL">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME_PT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME_RU">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME_SV">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME_TR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME_UK">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME_UR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME_VI">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME_ZH">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME_ZHT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FCLASS_ISO">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="TLC_DIFF">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FCLASS_TLC">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FCLASS_US">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FCLASS_FR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FCLASS_RU">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FCLASS_ES">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FCLASS_CN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FCLASS_TW">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FCLASS_IN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FCLASS_NP">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FCLASS_PK">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FCLASS_DE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FCLASS_GB">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FCLASS_BR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FCLASS_IL">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FCLASS_PS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FCLASS_SA">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FCLASS_EG">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FCLASS_MA">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FCLASS_PT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FCLASS_AR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FCLASS_JP">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FCLASS_KO">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FCLASS_VN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FCLASS_TR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FCLASS_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FCLASS_PL">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FCLASS_GR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FCLASS_IT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FCLASS_NL">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FCLASS_SE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FCLASS_BD">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FCLASS_UA">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="featurecla"/>
+        <alias index="1" name="" field="scalerank"/>
+        <alias index="2" name="" field="LABELRANK"/>
+        <alias index="3" name="" field="SOVEREIGNT"/>
+        <alias index="4" name="" field="SOV_A3"/>
+        <alias index="5" name="" field="ADM0_DIF"/>
+        <alias index="6" name="" field="LEVEL"/>
+        <alias index="7" name="" field="TYPE"/>
+        <alias index="8" name="" field="TLC"/>
+        <alias index="9" name="" field="ADMIN"/>
+        <alias index="10" name="" field="ADM0_A3"/>
+        <alias index="11" name="" field="GEOU_DIF"/>
+        <alias index="12" name="" field="GEOUNIT"/>
+        <alias index="13" name="" field="GU_A3"/>
+        <alias index="14" name="" field="SU_DIF"/>
+        <alias index="15" name="" field="SUBUNIT"/>
+        <alias index="16" name="" field="SU_A3"/>
+        <alias index="17" name="" field="BRK_DIFF"/>
+        <alias index="18" name="" field="NAME"/>
+        <alias index="19" name="" field="NAME_LONG"/>
+        <alias index="20" name="" field="BRK_A3"/>
+        <alias index="21" name="" field="BRK_NAME"/>
+        <alias index="22" name="" field="BRK_GROUP"/>
+        <alias index="23" name="" field="ABBREV"/>
+        <alias index="24" name="" field="POSTAL"/>
+        <alias index="25" name="" field="FORMAL_EN"/>
+        <alias index="26" name="" field="FORMAL_FR"/>
+        <alias index="27" name="" field="NAME_CIAWF"/>
+        <alias index="28" name="" field="NOTE_ADM0"/>
+        <alias index="29" name="" field="NOTE_BRK"/>
+        <alias index="30" name="" field="NAME_SORT"/>
+        <alias index="31" name="" field="NAME_ALT"/>
+        <alias index="32" name="" field="MAPCOLOR7"/>
+        <alias index="33" name="" field="MAPCOLOR8"/>
+        <alias index="34" name="" field="MAPCOLOR9"/>
+        <alias index="35" name="" field="MAPCOLOR13"/>
+        <alias index="36" name="" field="POP_EST"/>
+        <alias index="37" name="" field="POP_RANK"/>
+        <alias index="38" name="" field="POP_YEAR"/>
+        <alias index="39" name="" field="GDP_MD"/>
+        <alias index="40" name="" field="GDP_YEAR"/>
+        <alias index="41" name="" field="ECONOMY"/>
+        <alias index="42" name="" field="INCOME_GRP"/>
+        <alias index="43" name="" field="FIPS_10"/>
+        <alias index="44" name="" field="ISO_A2"/>
+        <alias index="45" name="" field="ISO_A2_EH"/>
+        <alias index="46" name="" field="ISO_A3"/>
+        <alias index="47" name="" field="ISO_A3_EH"/>
+        <alias index="48" name="" field="ISO_N3"/>
+        <alias index="49" name="" field="ISO_N3_EH"/>
+        <alias index="50" name="" field="UN_A3"/>
+        <alias index="51" name="" field="WB_A2"/>
+        <alias index="52" name="" field="WB_A3"/>
+        <alias index="53" name="" field="WOE_ID"/>
+        <alias index="54" name="" field="WOE_ID_EH"/>
+        <alias index="55" name="" field="WOE_NOTE"/>
+        <alias index="56" name="" field="ADM0_ISO"/>
+        <alias index="57" name="" field="ADM0_DIFF"/>
+        <alias index="58" name="" field="ADM0_TLC"/>
+        <alias index="59" name="" field="ADM0_A3_US"/>
+        <alias index="60" name="" field="ADM0_A3_FR"/>
+        <alias index="61" name="" field="ADM0_A3_RU"/>
+        <alias index="62" name="" field="ADM0_A3_ES"/>
+        <alias index="63" name="" field="ADM0_A3_CN"/>
+        <alias index="64" name="" field="ADM0_A3_TW"/>
+        <alias index="65" name="" field="ADM0_A3_IN"/>
+        <alias index="66" name="" field="ADM0_A3_NP"/>
+        <alias index="67" name="" field="ADM0_A3_PK"/>
+        <alias index="68" name="" field="ADM0_A3_DE"/>
+        <alias index="69" name="" field="ADM0_A3_GB"/>
+        <alias index="70" name="" field="ADM0_A3_BR"/>
+        <alias index="71" name="" field="ADM0_A3_IL"/>
+        <alias index="72" name="" field="ADM0_A3_PS"/>
+        <alias index="73" name="" field="ADM0_A3_SA"/>
+        <alias index="74" name="" field="ADM0_A3_EG"/>
+        <alias index="75" name="" field="ADM0_A3_MA"/>
+        <alias index="76" name="" field="ADM0_A3_PT"/>
+        <alias index="77" name="" field="ADM0_A3_AR"/>
+        <alias index="78" name="" field="ADM0_A3_JP"/>
+        <alias index="79" name="" field="ADM0_A3_KO"/>
+        <alias index="80" name="" field="ADM0_A3_VN"/>
+        <alias index="81" name="" field="ADM0_A3_TR"/>
+        <alias index="82" name="" field="ADM0_A3_ID"/>
+        <alias index="83" name="" field="ADM0_A3_PL"/>
+        <alias index="84" name="" field="ADM0_A3_GR"/>
+        <alias index="85" name="" field="ADM0_A3_IT"/>
+        <alias index="86" name="" field="ADM0_A3_NL"/>
+        <alias index="87" name="" field="ADM0_A3_SE"/>
+        <alias index="88" name="" field="ADM0_A3_BD"/>
+        <alias index="89" name="" field="ADM0_A3_UA"/>
+        <alias index="90" name="" field="ADM0_A3_UN"/>
+        <alias index="91" name="" field="ADM0_A3_WB"/>
+        <alias index="92" name="" field="CONTINENT"/>
+        <alias index="93" name="" field="REGION_UN"/>
+        <alias index="94" name="" field="SUBREGION"/>
+        <alias index="95" name="" field="REGION_WB"/>
+        <alias index="96" name="" field="NAME_LEN"/>
+        <alias index="97" name="" field="LONG_LEN"/>
+        <alias index="98" name="" field="ABBREV_LEN"/>
+        <alias index="99" name="" field="TINY"/>
+        <alias index="100" name="" field="HOMEPART"/>
+        <alias index="101" name="" field="MIN_ZOOM"/>
+        <alias index="102" name="" field="MIN_LABEL"/>
+        <alias index="103" name="" field="MAX_LABEL"/>
+        <alias index="104" name="" field="LABEL_X"/>
+        <alias index="105" name="" field="LABEL_Y"/>
+        <alias index="106" name="" field="NE_ID"/>
+        <alias index="107" name="" field="WIKIDATAID"/>
+        <alias index="108" name="" field="NAME_AR"/>
+        <alias index="109" name="" field="NAME_BN"/>
+        <alias index="110" name="" field="NAME_DE"/>
+        <alias index="111" name="" field="NAME_EN"/>
+        <alias index="112" name="" field="NAME_ES"/>
+        <alias index="113" name="" field="NAME_FA"/>
+        <alias index="114" name="" field="NAME_FR"/>
+        <alias index="115" name="" field="NAME_EL"/>
+        <alias index="116" name="" field="NAME_HE"/>
+        <alias index="117" name="" field="NAME_HI"/>
+        <alias index="118" name="" field="NAME_HU"/>
+        <alias index="119" name="" field="NAME_ID"/>
+        <alias index="120" name="" field="NAME_IT"/>
+        <alias index="121" name="" field="NAME_JA"/>
+        <alias index="122" name="" field="NAME_KO"/>
+        <alias index="123" name="" field="NAME_NL"/>
+        <alias index="124" name="" field="NAME_PL"/>
+        <alias index="125" name="" field="NAME_PT"/>
+        <alias index="126" name="" field="NAME_RU"/>
+        <alias index="127" name="" field="NAME_SV"/>
+        <alias index="128" name="" field="NAME_TR"/>
+        <alias index="129" name="" field="NAME_UK"/>
+        <alias index="130" name="" field="NAME_UR"/>
+        <alias index="131" name="" field="NAME_VI"/>
+        <alias index="132" name="" field="NAME_ZH"/>
+        <alias index="133" name="" field="NAME_ZHT"/>
+        <alias index="134" name="" field="FCLASS_ISO"/>
+        <alias index="135" name="" field="TLC_DIFF"/>
+        <alias index="136" name="" field="FCLASS_TLC"/>
+        <alias index="137" name="" field="FCLASS_US"/>
+        <alias index="138" name="" field="FCLASS_FR"/>
+        <alias index="139" name="" field="FCLASS_RU"/>
+        <alias index="140" name="" field="FCLASS_ES"/>
+        <alias index="141" name="" field="FCLASS_CN"/>
+        <alias index="142" name="" field="FCLASS_TW"/>
+        <alias index="143" name="" field="FCLASS_IN"/>
+        <alias index="144" name="" field="FCLASS_NP"/>
+        <alias index="145" name="" field="FCLASS_PK"/>
+        <alias index="146" name="" field="FCLASS_DE"/>
+        <alias index="147" name="" field="FCLASS_GB"/>
+        <alias index="148" name="" field="FCLASS_BR"/>
+        <alias index="149" name="" field="FCLASS_IL"/>
+        <alias index="150" name="" field="FCLASS_PS"/>
+        <alias index="151" name="" field="FCLASS_SA"/>
+        <alias index="152" name="" field="FCLASS_EG"/>
+        <alias index="153" name="" field="FCLASS_MA"/>
+        <alias index="154" name="" field="FCLASS_PT"/>
+        <alias index="155" name="" field="FCLASS_AR"/>
+        <alias index="156" name="" field="FCLASS_JP"/>
+        <alias index="157" name="" field="FCLASS_KO"/>
+        <alias index="158" name="" field="FCLASS_VN"/>
+        <alias index="159" name="" field="FCLASS_TR"/>
+        <alias index="160" name="" field="FCLASS_ID"/>
+        <alias index="161" name="" field="FCLASS_PL"/>
+        <alias index="162" name="" field="FCLASS_GR"/>
+        <alias index="163" name="" field="FCLASS_IT"/>
+        <alias index="164" name="" field="FCLASS_NL"/>
+        <alias index="165" name="" field="FCLASS_SE"/>
+        <alias index="166" name="" field="FCLASS_BD"/>
+        <alias index="167" name="" field="FCLASS_UA"/>
+      </aliases>
+      <defaults>
+        <default expression="" applyOnUpdate="0" field="featurecla"/>
+        <default expression="" applyOnUpdate="0" field="scalerank"/>
+        <default expression="" applyOnUpdate="0" field="LABELRANK"/>
+        <default expression="" applyOnUpdate="0" field="SOVEREIGNT"/>
+        <default expression="" applyOnUpdate="0" field="SOV_A3"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_DIF"/>
+        <default expression="" applyOnUpdate="0" field="LEVEL"/>
+        <default expression="" applyOnUpdate="0" field="TYPE"/>
+        <default expression="" applyOnUpdate="0" field="TLC"/>
+        <default expression="" applyOnUpdate="0" field="ADMIN"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3"/>
+        <default expression="" applyOnUpdate="0" field="GEOU_DIF"/>
+        <default expression="" applyOnUpdate="0" field="GEOUNIT"/>
+        <default expression="" applyOnUpdate="0" field="GU_A3"/>
+        <default expression="" applyOnUpdate="0" field="SU_DIF"/>
+        <default expression="" applyOnUpdate="0" field="SUBUNIT"/>
+        <default expression="" applyOnUpdate="0" field="SU_A3"/>
+        <default expression="" applyOnUpdate="0" field="BRK_DIFF"/>
+        <default expression="" applyOnUpdate="0" field="NAME"/>
+        <default expression="" applyOnUpdate="0" field="NAME_LONG"/>
+        <default expression="" applyOnUpdate="0" field="BRK_A3"/>
+        <default expression="" applyOnUpdate="0" field="BRK_NAME"/>
+        <default expression="" applyOnUpdate="0" field="BRK_GROUP"/>
+        <default expression="" applyOnUpdate="0" field="ABBREV"/>
+        <default expression="" applyOnUpdate="0" field="POSTAL"/>
+        <default expression="" applyOnUpdate="0" field="FORMAL_EN"/>
+        <default expression="" applyOnUpdate="0" field="FORMAL_FR"/>
+        <default expression="" applyOnUpdate="0" field="NAME_CIAWF"/>
+        <default expression="" applyOnUpdate="0" field="NOTE_ADM0"/>
+        <default expression="" applyOnUpdate="0" field="NOTE_BRK"/>
+        <default expression="" applyOnUpdate="0" field="NAME_SORT"/>
+        <default expression="" applyOnUpdate="0" field="NAME_ALT"/>
+        <default expression="" applyOnUpdate="0" field="MAPCOLOR7"/>
+        <default expression="" applyOnUpdate="0" field="MAPCOLOR8"/>
+        <default expression="" applyOnUpdate="0" field="MAPCOLOR9"/>
+        <default expression="" applyOnUpdate="0" field="MAPCOLOR13"/>
+        <default expression="" applyOnUpdate="0" field="POP_EST"/>
+        <default expression="" applyOnUpdate="0" field="POP_RANK"/>
+        <default expression="" applyOnUpdate="0" field="POP_YEAR"/>
+        <default expression="" applyOnUpdate="0" field="GDP_MD"/>
+        <default expression="" applyOnUpdate="0" field="GDP_YEAR"/>
+        <default expression="" applyOnUpdate="0" field="ECONOMY"/>
+        <default expression="" applyOnUpdate="0" field="INCOME_GRP"/>
+        <default expression="" applyOnUpdate="0" field="FIPS_10"/>
+        <default expression="" applyOnUpdate="0" field="ISO_A2"/>
+        <default expression="" applyOnUpdate="0" field="ISO_A2_EH"/>
+        <default expression="" applyOnUpdate="0" field="ISO_A3"/>
+        <default expression="" applyOnUpdate="0" field="ISO_A3_EH"/>
+        <default expression="" applyOnUpdate="0" field="ISO_N3"/>
+        <default expression="" applyOnUpdate="0" field="ISO_N3_EH"/>
+        <default expression="" applyOnUpdate="0" field="UN_A3"/>
+        <default expression="" applyOnUpdate="0" field="WB_A2"/>
+        <default expression="" applyOnUpdate="0" field="WB_A3"/>
+        <default expression="" applyOnUpdate="0" field="WOE_ID"/>
+        <default expression="" applyOnUpdate="0" field="WOE_ID_EH"/>
+        <default expression="" applyOnUpdate="0" field="WOE_NOTE"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_ISO"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_DIFF"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_TLC"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3_US"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3_FR"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3_RU"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3_ES"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3_CN"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3_TW"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3_IN"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3_NP"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3_PK"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3_DE"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3_GB"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3_BR"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3_IL"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3_PS"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3_SA"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3_EG"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3_MA"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3_PT"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3_AR"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3_JP"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3_KO"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3_VN"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3_TR"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3_ID"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3_PL"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3_GR"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3_IT"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3_NL"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3_SE"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3_BD"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3_UA"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3_UN"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3_WB"/>
+        <default expression="" applyOnUpdate="0" field="CONTINENT"/>
+        <default expression="" applyOnUpdate="0" field="REGION_UN"/>
+        <default expression="" applyOnUpdate="0" field="SUBREGION"/>
+        <default expression="" applyOnUpdate="0" field="REGION_WB"/>
+        <default expression="" applyOnUpdate="0" field="NAME_LEN"/>
+        <default expression="" applyOnUpdate="0" field="LONG_LEN"/>
+        <default expression="" applyOnUpdate="0" field="ABBREV_LEN"/>
+        <default expression="" applyOnUpdate="0" field="TINY"/>
+        <default expression="" applyOnUpdate="0" field="HOMEPART"/>
+        <default expression="" applyOnUpdate="0" field="MIN_ZOOM"/>
+        <default expression="" applyOnUpdate="0" field="MIN_LABEL"/>
+        <default expression="" applyOnUpdate="0" field="MAX_LABEL"/>
+        <default expression="" applyOnUpdate="0" field="LABEL_X"/>
+        <default expression="" applyOnUpdate="0" field="LABEL_Y"/>
+        <default expression="" applyOnUpdate="0" field="NE_ID"/>
+        <default expression="" applyOnUpdate="0" field="WIKIDATAID"/>
+        <default expression="" applyOnUpdate="0" field="NAME_AR"/>
+        <default expression="" applyOnUpdate="0" field="NAME_BN"/>
+        <default expression="" applyOnUpdate="0" field="NAME_DE"/>
+        <default expression="" applyOnUpdate="0" field="NAME_EN"/>
+        <default expression="" applyOnUpdate="0" field="NAME_ES"/>
+        <default expression="" applyOnUpdate="0" field="NAME_FA"/>
+        <default expression="" applyOnUpdate="0" field="NAME_FR"/>
+        <default expression="" applyOnUpdate="0" field="NAME_EL"/>
+        <default expression="" applyOnUpdate="0" field="NAME_HE"/>
+        <default expression="" applyOnUpdate="0" field="NAME_HI"/>
+        <default expression="" applyOnUpdate="0" field="NAME_HU"/>
+        <default expression="" applyOnUpdate="0" field="NAME_ID"/>
+        <default expression="" applyOnUpdate="0" field="NAME_IT"/>
+        <default expression="" applyOnUpdate="0" field="NAME_JA"/>
+        <default expression="" applyOnUpdate="0" field="NAME_KO"/>
+        <default expression="" applyOnUpdate="0" field="NAME_NL"/>
+        <default expression="" applyOnUpdate="0" field="NAME_PL"/>
+        <default expression="" applyOnUpdate="0" field="NAME_PT"/>
+        <default expression="" applyOnUpdate="0" field="NAME_RU"/>
+        <default expression="" applyOnUpdate="0" field="NAME_SV"/>
+        <default expression="" applyOnUpdate="0" field="NAME_TR"/>
+        <default expression="" applyOnUpdate="0" field="NAME_UK"/>
+        <default expression="" applyOnUpdate="0" field="NAME_UR"/>
+        <default expression="" applyOnUpdate="0" field="NAME_VI"/>
+        <default expression="" applyOnUpdate="0" field="NAME_ZH"/>
+        <default expression="" applyOnUpdate="0" field="NAME_ZHT"/>
+        <default expression="" applyOnUpdate="0" field="FCLASS_ISO"/>
+        <default expression="" applyOnUpdate="0" field="TLC_DIFF"/>
+        <default expression="" applyOnUpdate="0" field="FCLASS_TLC"/>
+        <default expression="" applyOnUpdate="0" field="FCLASS_US"/>
+        <default expression="" applyOnUpdate="0" field="FCLASS_FR"/>
+        <default expression="" applyOnUpdate="0" field="FCLASS_RU"/>
+        <default expression="" applyOnUpdate="0" field="FCLASS_ES"/>
+        <default expression="" applyOnUpdate="0" field="FCLASS_CN"/>
+        <default expression="" applyOnUpdate="0" field="FCLASS_TW"/>
+        <default expression="" applyOnUpdate="0" field="FCLASS_IN"/>
+        <default expression="" applyOnUpdate="0" field="FCLASS_NP"/>
+        <default expression="" applyOnUpdate="0" field="FCLASS_PK"/>
+        <default expression="" applyOnUpdate="0" field="FCLASS_DE"/>
+        <default expression="" applyOnUpdate="0" field="FCLASS_GB"/>
+        <default expression="" applyOnUpdate="0" field="FCLASS_BR"/>
+        <default expression="" applyOnUpdate="0" field="FCLASS_IL"/>
+        <default expression="" applyOnUpdate="0" field="FCLASS_PS"/>
+        <default expression="" applyOnUpdate="0" field="FCLASS_SA"/>
+        <default expression="" applyOnUpdate="0" field="FCLASS_EG"/>
+        <default expression="" applyOnUpdate="0" field="FCLASS_MA"/>
+        <default expression="" applyOnUpdate="0" field="FCLASS_PT"/>
+        <default expression="" applyOnUpdate="0" field="FCLASS_AR"/>
+        <default expression="" applyOnUpdate="0" field="FCLASS_JP"/>
+        <default expression="" applyOnUpdate="0" field="FCLASS_KO"/>
+        <default expression="" applyOnUpdate="0" field="FCLASS_VN"/>
+        <default expression="" applyOnUpdate="0" field="FCLASS_TR"/>
+        <default expression="" applyOnUpdate="0" field="FCLASS_ID"/>
+        <default expression="" applyOnUpdate="0" field="FCLASS_PL"/>
+        <default expression="" applyOnUpdate="0" field="FCLASS_GR"/>
+        <default expression="" applyOnUpdate="0" field="FCLASS_IT"/>
+        <default expression="" applyOnUpdate="0" field="FCLASS_NL"/>
+        <default expression="" applyOnUpdate="0" field="FCLASS_SE"/>
+        <default expression="" applyOnUpdate="0" field="FCLASS_BD"/>
+        <default expression="" applyOnUpdate="0" field="FCLASS_UA"/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="featurecla"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="scalerank"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="LABELRANK"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="SOVEREIGNT"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="SOV_A3"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_DIF"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="LEVEL"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="TYPE"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="TLC"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADMIN"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="GEOU_DIF"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="GEOUNIT"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="GU_A3"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="SU_DIF"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="SUBUNIT"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="SU_A3"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="BRK_DIFF"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NAME"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NAME_LONG"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="BRK_A3"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="BRK_NAME"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="BRK_GROUP"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ABBREV"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="POSTAL"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FORMAL_EN"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FORMAL_FR"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NAME_CIAWF"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NOTE_ADM0"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NOTE_BRK"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NAME_SORT"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NAME_ALT"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="MAPCOLOR7"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="MAPCOLOR8"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="MAPCOLOR9"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="MAPCOLOR13"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="POP_EST"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="POP_RANK"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="POP_YEAR"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="GDP_MD"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="GDP_YEAR"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ECONOMY"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="INCOME_GRP"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FIPS_10"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ISO_A2"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ISO_A2_EH"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ISO_A3"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ISO_A3_EH"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ISO_N3"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ISO_N3_EH"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="UN_A3"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="WB_A2"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="WB_A3"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="WOE_ID"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="WOE_ID_EH"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="WOE_NOTE"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_ISO"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_DIFF"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_TLC"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3_US"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3_FR"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3_RU"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3_ES"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3_CN"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3_TW"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3_IN"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3_NP"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3_PK"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3_DE"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3_GB"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3_BR"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3_IL"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3_PS"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3_SA"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3_EG"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3_MA"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3_PT"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3_AR"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3_JP"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3_KO"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3_VN"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3_TR"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3_ID"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3_PL"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3_GR"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3_IT"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3_NL"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3_SE"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3_BD"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3_UA"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3_UN"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ADM0_A3_WB"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="CONTINENT"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="REGION_UN"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="SUBREGION"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="REGION_WB"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NAME_LEN"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="LONG_LEN"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ABBREV_LEN"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="TINY"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="HOMEPART"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="MIN_ZOOM"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="MIN_LABEL"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="MAX_LABEL"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="LABEL_X"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="LABEL_Y"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NE_ID"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="WIKIDATAID"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NAME_AR"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NAME_BN"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NAME_DE"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NAME_EN"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NAME_ES"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NAME_FA"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NAME_FR"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NAME_EL"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NAME_HE"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NAME_HI"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NAME_HU"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NAME_ID"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NAME_IT"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NAME_JA"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NAME_KO"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NAME_NL"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NAME_PL"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NAME_PT"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NAME_RU"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NAME_SV"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NAME_TR"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NAME_UK"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NAME_UR"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NAME_VI"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NAME_ZH"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="NAME_ZHT"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FCLASS_ISO"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="TLC_DIFF"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FCLASS_TLC"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FCLASS_US"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FCLASS_FR"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FCLASS_RU"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FCLASS_ES"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FCLASS_CN"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FCLASS_TW"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FCLASS_IN"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FCLASS_NP"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FCLASS_PK"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FCLASS_DE"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FCLASS_GB"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FCLASS_BR"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FCLASS_IL"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FCLASS_PS"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FCLASS_SA"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FCLASS_EG"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FCLASS_MA"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FCLASS_PT"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FCLASS_AR"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FCLASS_JP"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FCLASS_KO"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FCLASS_VN"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FCLASS_TR"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FCLASS_ID"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FCLASS_PL"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FCLASS_GR"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FCLASS_IT"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FCLASS_NL"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FCLASS_SE"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FCLASS_BD"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="FCLASS_UA"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="featurecla"/>
+        <constraint exp="" desc="" field="scalerank"/>
+        <constraint exp="" desc="" field="LABELRANK"/>
+        <constraint exp="" desc="" field="SOVEREIGNT"/>
+        <constraint exp="" desc="" field="SOV_A3"/>
+        <constraint exp="" desc="" field="ADM0_DIF"/>
+        <constraint exp="" desc="" field="LEVEL"/>
+        <constraint exp="" desc="" field="TYPE"/>
+        <constraint exp="" desc="" field="TLC"/>
+        <constraint exp="" desc="" field="ADMIN"/>
+        <constraint exp="" desc="" field="ADM0_A3"/>
+        <constraint exp="" desc="" field="GEOU_DIF"/>
+        <constraint exp="" desc="" field="GEOUNIT"/>
+        <constraint exp="" desc="" field="GU_A3"/>
+        <constraint exp="" desc="" field="SU_DIF"/>
+        <constraint exp="" desc="" field="SUBUNIT"/>
+        <constraint exp="" desc="" field="SU_A3"/>
+        <constraint exp="" desc="" field="BRK_DIFF"/>
+        <constraint exp="" desc="" field="NAME"/>
+        <constraint exp="" desc="" field="NAME_LONG"/>
+        <constraint exp="" desc="" field="BRK_A3"/>
+        <constraint exp="" desc="" field="BRK_NAME"/>
+        <constraint exp="" desc="" field="BRK_GROUP"/>
+        <constraint exp="" desc="" field="ABBREV"/>
+        <constraint exp="" desc="" field="POSTAL"/>
+        <constraint exp="" desc="" field="FORMAL_EN"/>
+        <constraint exp="" desc="" field="FORMAL_FR"/>
+        <constraint exp="" desc="" field="NAME_CIAWF"/>
+        <constraint exp="" desc="" field="NOTE_ADM0"/>
+        <constraint exp="" desc="" field="NOTE_BRK"/>
+        <constraint exp="" desc="" field="NAME_SORT"/>
+        <constraint exp="" desc="" field="NAME_ALT"/>
+        <constraint exp="" desc="" field="MAPCOLOR7"/>
+        <constraint exp="" desc="" field="MAPCOLOR8"/>
+        <constraint exp="" desc="" field="MAPCOLOR9"/>
+        <constraint exp="" desc="" field="MAPCOLOR13"/>
+        <constraint exp="" desc="" field="POP_EST"/>
+        <constraint exp="" desc="" field="POP_RANK"/>
+        <constraint exp="" desc="" field="POP_YEAR"/>
+        <constraint exp="" desc="" field="GDP_MD"/>
+        <constraint exp="" desc="" field="GDP_YEAR"/>
+        <constraint exp="" desc="" field="ECONOMY"/>
+        <constraint exp="" desc="" field="INCOME_GRP"/>
+        <constraint exp="" desc="" field="FIPS_10"/>
+        <constraint exp="" desc="" field="ISO_A2"/>
+        <constraint exp="" desc="" field="ISO_A2_EH"/>
+        <constraint exp="" desc="" field="ISO_A3"/>
+        <constraint exp="" desc="" field="ISO_A3_EH"/>
+        <constraint exp="" desc="" field="ISO_N3"/>
+        <constraint exp="" desc="" field="ISO_N3_EH"/>
+        <constraint exp="" desc="" field="UN_A3"/>
+        <constraint exp="" desc="" field="WB_A2"/>
+        <constraint exp="" desc="" field="WB_A3"/>
+        <constraint exp="" desc="" field="WOE_ID"/>
+        <constraint exp="" desc="" field="WOE_ID_EH"/>
+        <constraint exp="" desc="" field="WOE_NOTE"/>
+        <constraint exp="" desc="" field="ADM0_ISO"/>
+        <constraint exp="" desc="" field="ADM0_DIFF"/>
+        <constraint exp="" desc="" field="ADM0_TLC"/>
+        <constraint exp="" desc="" field="ADM0_A3_US"/>
+        <constraint exp="" desc="" field="ADM0_A3_FR"/>
+        <constraint exp="" desc="" field="ADM0_A3_RU"/>
+        <constraint exp="" desc="" field="ADM0_A3_ES"/>
+        <constraint exp="" desc="" field="ADM0_A3_CN"/>
+        <constraint exp="" desc="" field="ADM0_A3_TW"/>
+        <constraint exp="" desc="" field="ADM0_A3_IN"/>
+        <constraint exp="" desc="" field="ADM0_A3_NP"/>
+        <constraint exp="" desc="" field="ADM0_A3_PK"/>
+        <constraint exp="" desc="" field="ADM0_A3_DE"/>
+        <constraint exp="" desc="" field="ADM0_A3_GB"/>
+        <constraint exp="" desc="" field="ADM0_A3_BR"/>
+        <constraint exp="" desc="" field="ADM0_A3_IL"/>
+        <constraint exp="" desc="" field="ADM0_A3_PS"/>
+        <constraint exp="" desc="" field="ADM0_A3_SA"/>
+        <constraint exp="" desc="" field="ADM0_A3_EG"/>
+        <constraint exp="" desc="" field="ADM0_A3_MA"/>
+        <constraint exp="" desc="" field="ADM0_A3_PT"/>
+        <constraint exp="" desc="" field="ADM0_A3_AR"/>
+        <constraint exp="" desc="" field="ADM0_A3_JP"/>
+        <constraint exp="" desc="" field="ADM0_A3_KO"/>
+        <constraint exp="" desc="" field="ADM0_A3_VN"/>
+        <constraint exp="" desc="" field="ADM0_A3_TR"/>
+        <constraint exp="" desc="" field="ADM0_A3_ID"/>
+        <constraint exp="" desc="" field="ADM0_A3_PL"/>
+        <constraint exp="" desc="" field="ADM0_A3_GR"/>
+        <constraint exp="" desc="" field="ADM0_A3_IT"/>
+        <constraint exp="" desc="" field="ADM0_A3_NL"/>
+        <constraint exp="" desc="" field="ADM0_A3_SE"/>
+        <constraint exp="" desc="" field="ADM0_A3_BD"/>
+        <constraint exp="" desc="" field="ADM0_A3_UA"/>
+        <constraint exp="" desc="" field="ADM0_A3_UN"/>
+        <constraint exp="" desc="" field="ADM0_A3_WB"/>
+        <constraint exp="" desc="" field="CONTINENT"/>
+        <constraint exp="" desc="" field="REGION_UN"/>
+        <constraint exp="" desc="" field="SUBREGION"/>
+        <constraint exp="" desc="" field="REGION_WB"/>
+        <constraint exp="" desc="" field="NAME_LEN"/>
+        <constraint exp="" desc="" field="LONG_LEN"/>
+        <constraint exp="" desc="" field="ABBREV_LEN"/>
+        <constraint exp="" desc="" field="TINY"/>
+        <constraint exp="" desc="" field="HOMEPART"/>
+        <constraint exp="" desc="" field="MIN_ZOOM"/>
+        <constraint exp="" desc="" field="MIN_LABEL"/>
+        <constraint exp="" desc="" field="MAX_LABEL"/>
+        <constraint exp="" desc="" field="LABEL_X"/>
+        <constraint exp="" desc="" field="LABEL_Y"/>
+        <constraint exp="" desc="" field="NE_ID"/>
+        <constraint exp="" desc="" field="WIKIDATAID"/>
+        <constraint exp="" desc="" field="NAME_AR"/>
+        <constraint exp="" desc="" field="NAME_BN"/>
+        <constraint exp="" desc="" field="NAME_DE"/>
+        <constraint exp="" desc="" field="NAME_EN"/>
+        <constraint exp="" desc="" field="NAME_ES"/>
+        <constraint exp="" desc="" field="NAME_FA"/>
+        <constraint exp="" desc="" field="NAME_FR"/>
+        <constraint exp="" desc="" field="NAME_EL"/>
+        <constraint exp="" desc="" field="NAME_HE"/>
+        <constraint exp="" desc="" field="NAME_HI"/>
+        <constraint exp="" desc="" field="NAME_HU"/>
+        <constraint exp="" desc="" field="NAME_ID"/>
+        <constraint exp="" desc="" field="NAME_IT"/>
+        <constraint exp="" desc="" field="NAME_JA"/>
+        <constraint exp="" desc="" field="NAME_KO"/>
+        <constraint exp="" desc="" field="NAME_NL"/>
+        <constraint exp="" desc="" field="NAME_PL"/>
+        <constraint exp="" desc="" field="NAME_PT"/>
+        <constraint exp="" desc="" field="NAME_RU"/>
+        <constraint exp="" desc="" field="NAME_SV"/>
+        <constraint exp="" desc="" field="NAME_TR"/>
+        <constraint exp="" desc="" field="NAME_UK"/>
+        <constraint exp="" desc="" field="NAME_UR"/>
+        <constraint exp="" desc="" field="NAME_VI"/>
+        <constraint exp="" desc="" field="NAME_ZH"/>
+        <constraint exp="" desc="" field="NAME_ZHT"/>
+        <constraint exp="" desc="" field="FCLASS_ISO"/>
+        <constraint exp="" desc="" field="TLC_DIFF"/>
+        <constraint exp="" desc="" field="FCLASS_TLC"/>
+        <constraint exp="" desc="" field="FCLASS_US"/>
+        <constraint exp="" desc="" field="FCLASS_FR"/>
+        <constraint exp="" desc="" field="FCLASS_RU"/>
+        <constraint exp="" desc="" field="FCLASS_ES"/>
+        <constraint exp="" desc="" field="FCLASS_CN"/>
+        <constraint exp="" desc="" field="FCLASS_TW"/>
+        <constraint exp="" desc="" field="FCLASS_IN"/>
+        <constraint exp="" desc="" field="FCLASS_NP"/>
+        <constraint exp="" desc="" field="FCLASS_PK"/>
+        <constraint exp="" desc="" field="FCLASS_DE"/>
+        <constraint exp="" desc="" field="FCLASS_GB"/>
+        <constraint exp="" desc="" field="FCLASS_BR"/>
+        <constraint exp="" desc="" field="FCLASS_IL"/>
+        <constraint exp="" desc="" field="FCLASS_PS"/>
+        <constraint exp="" desc="" field="FCLASS_SA"/>
+        <constraint exp="" desc="" field="FCLASS_EG"/>
+        <constraint exp="" desc="" field="FCLASS_MA"/>
+        <constraint exp="" desc="" field="FCLASS_PT"/>
+        <constraint exp="" desc="" field="FCLASS_AR"/>
+        <constraint exp="" desc="" field="FCLASS_JP"/>
+        <constraint exp="" desc="" field="FCLASS_KO"/>
+        <constraint exp="" desc="" field="FCLASS_VN"/>
+        <constraint exp="" desc="" field="FCLASS_TR"/>
+        <constraint exp="" desc="" field="FCLASS_ID"/>
+        <constraint exp="" desc="" field="FCLASS_PL"/>
+        <constraint exp="" desc="" field="FCLASS_GR"/>
+        <constraint exp="" desc="" field="FCLASS_IT"/>
+        <constraint exp="" desc="" field="FCLASS_NL"/>
+        <constraint exp="" desc="" field="FCLASS_SE"/>
+        <constraint exp="" desc="" field="FCLASS_BD"/>
+        <constraint exp="" desc="" field="FCLASS_UA"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="1" sortExpression="&quot;FORMAL_EN&quot;" actionWidgetStyle="dropDown">
+        <columns>
+          <column width="-1" hidden="1" name="featurecla" type="field"/>
+          <column width="-1" hidden="1" name="scalerank" type="field"/>
+          <column width="-1" hidden="1" name="LABELRANK" type="field"/>
+          <column width="-1" hidden="1" name="SOVEREIGNT" type="field"/>
+          <column width="-1" hidden="1" name="SOV_A3" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_DIF" type="field"/>
+          <column width="-1" hidden="1" name="LEVEL" type="field"/>
+          <column width="-1" hidden="1" name="TYPE" type="field"/>
+          <column width="-1" hidden="1" name="TLC" type="field"/>
+          <column width="-1" hidden="1" name="ADMIN" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3" type="field"/>
+          <column width="-1" hidden="1" name="GEOU_DIF" type="field"/>
+          <column width="-1" hidden="1" name="GEOUNIT" type="field"/>
+          <column width="-1" hidden="1" name="GU_A3" type="field"/>
+          <column width="-1" hidden="1" name="SU_DIF" type="field"/>
+          <column width="-1" hidden="1" name="SUBUNIT" type="field"/>
+          <column width="-1" hidden="1" name="SU_A3" type="field"/>
+          <column width="-1" hidden="1" name="BRK_DIFF" type="field"/>
+          <column width="-1" hidden="1" name="NAME" type="field"/>
+          <column width="-1" hidden="1" name="NAME_LONG" type="field"/>
+          <column width="-1" hidden="1" name="BRK_A3" type="field"/>
+          <column width="-1" hidden="1" name="BRK_NAME" type="field"/>
+          <column width="-1" hidden="1" name="BRK_GROUP" type="field"/>
+          <column width="-1" hidden="1" name="ABBREV" type="field"/>
+          <column width="-1" hidden="1" name="POSTAL" type="field"/>
+          <column width="206" hidden="0" name="FORMAL_EN" type="field"/>
+          <column width="-1" hidden="1" name="FORMAL_FR" type="field"/>
+          <column width="-1" hidden="1" name="NAME_CIAWF" type="field"/>
+          <column width="-1" hidden="1" name="NOTE_ADM0" type="field"/>
+          <column width="-1" hidden="1" name="NOTE_BRK" type="field"/>
+          <column width="-1" hidden="1" name="NAME_SORT" type="field"/>
+          <column width="-1" hidden="1" name="NAME_ALT" type="field"/>
+          <column width="-1" hidden="1" name="MAPCOLOR7" type="field"/>
+          <column width="-1" hidden="1" name="MAPCOLOR8" type="field"/>
+          <column width="-1" hidden="1" name="MAPCOLOR9" type="field"/>
+          <column width="-1" hidden="1" name="MAPCOLOR13" type="field"/>
+          <column width="-1" hidden="1" name="POP_EST" type="field"/>
+          <column width="-1" hidden="1" name="POP_RANK" type="field"/>
+          <column width="-1" hidden="1" name="POP_YEAR" type="field"/>
+          <column width="-1" hidden="1" name="GDP_MD" type="field"/>
+          <column width="-1" hidden="1" name="GDP_YEAR" type="field"/>
+          <column width="-1" hidden="1" name="ECONOMY" type="field"/>
+          <column width="-1" hidden="1" name="INCOME_GRP" type="field"/>
+          <column width="-1" hidden="1" name="FIPS_10" type="field"/>
+          <column width="-1" hidden="0" name="ISO_A2" type="field"/>
+          <column width="-1" hidden="0" name="ISO_A2_EH" type="field"/>
+          <column width="-1" hidden="0" name="ISO_A3" type="field"/>
+          <column width="-1" hidden="0" name="ISO_A3_EH" type="field"/>
+          <column width="-1" hidden="0" name="ISO_N3" type="field"/>
+          <column width="-1" hidden="0" name="ISO_N3_EH" type="field"/>
+          <column width="-1" hidden="1" name="UN_A3" type="field"/>
+          <column width="-1" hidden="1" name="WB_A2" type="field"/>
+          <column width="-1" hidden="1" name="WB_A3" type="field"/>
+          <column width="-1" hidden="1" name="WOE_ID" type="field"/>
+          <column width="-1" hidden="1" name="WOE_ID_EH" type="field"/>
+          <column width="-1" hidden="1" name="WOE_NOTE" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_ISO" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_DIFF" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_TLC" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3_US" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3_FR" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3_RU" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3_ES" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3_CN" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3_TW" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3_IN" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3_NP" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3_PK" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3_DE" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3_GB" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3_BR" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3_IL" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3_PS" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3_SA" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3_EG" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3_MA" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3_PT" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3_AR" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3_JP" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3_KO" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3_VN" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3_TR" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3_ID" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3_PL" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3_GR" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3_IT" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3_NL" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3_SE" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3_BD" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3_UA" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3_UN" type="field"/>
+          <column width="-1" hidden="1" name="ADM0_A3_WB" type="field"/>
+          <column width="-1" hidden="1" name="CONTINENT" type="field"/>
+          <column width="-1" hidden="1" name="REGION_UN" type="field"/>
+          <column width="-1" hidden="1" name="SUBREGION" type="field"/>
+          <column width="-1" hidden="1" name="REGION_WB" type="field"/>
+          <column width="-1" hidden="1" name="NAME_LEN" type="field"/>
+          <column width="-1" hidden="1" name="LONG_LEN" type="field"/>
+          <column width="-1" hidden="1" name="ABBREV_LEN" type="field"/>
+          <column width="-1" hidden="1" name="TINY" type="field"/>
+          <column width="-1" hidden="1" name="HOMEPART" type="field"/>
+          <column width="-1" hidden="1" name="MIN_ZOOM" type="field"/>
+          <column width="-1" hidden="1" name="MIN_LABEL" type="field"/>
+          <column width="-1" hidden="1" name="MAX_LABEL" type="field"/>
+          <column width="-1" hidden="1" name="LABEL_X" type="field"/>
+          <column width="-1" hidden="1" name="LABEL_Y" type="field"/>
+          <column width="-1" hidden="1" name="NE_ID" type="field"/>
+          <column width="-1" hidden="1" name="WIKIDATAID" type="field"/>
+          <column width="-1" hidden="1" name="NAME_AR" type="field"/>
+          <column width="-1" hidden="1" name="NAME_BN" type="field"/>
+          <column width="-1" hidden="1" name="NAME_DE" type="field"/>
+          <column width="-1" hidden="1" name="NAME_EN" type="field"/>
+          <column width="-1" hidden="1" name="NAME_ES" type="field"/>
+          <column width="-1" hidden="1" name="NAME_FA" type="field"/>
+          <column width="-1" hidden="1" name="NAME_FR" type="field"/>
+          <column width="-1" hidden="1" name="NAME_EL" type="field"/>
+          <column width="-1" hidden="1" name="NAME_HE" type="field"/>
+          <column width="-1" hidden="1" name="NAME_HI" type="field"/>
+          <column width="-1" hidden="1" name="NAME_HU" type="field"/>
+          <column width="-1" hidden="1" name="NAME_ID" type="field"/>
+          <column width="-1" hidden="1" name="NAME_IT" type="field"/>
+          <column width="-1" hidden="1" name="NAME_JA" type="field"/>
+          <column width="-1" hidden="1" name="NAME_KO" type="field"/>
+          <column width="-1" hidden="1" name="NAME_NL" type="field"/>
+          <column width="-1" hidden="1" name="NAME_PL" type="field"/>
+          <column width="-1" hidden="1" name="NAME_PT" type="field"/>
+          <column width="-1" hidden="1" name="NAME_RU" type="field"/>
+          <column width="-1" hidden="1" name="NAME_SV" type="field"/>
+          <column width="-1" hidden="1" name="NAME_TR" type="field"/>
+          <column width="-1" hidden="1" name="NAME_UK" type="field"/>
+          <column width="-1" hidden="1" name="NAME_UR" type="field"/>
+          <column width="-1" hidden="1" name="NAME_VI" type="field"/>
+          <column width="-1" hidden="1" name="NAME_ZH" type="field"/>
+          <column width="-1" hidden="1" name="NAME_ZHT" type="field"/>
+          <column width="-1" hidden="1" name="FCLASS_ISO" type="field"/>
+          <column width="-1" hidden="1" name="TLC_DIFF" type="field"/>
+          <column width="-1" hidden="1" name="FCLASS_TLC" type="field"/>
+          <column width="-1" hidden="1" name="FCLASS_US" type="field"/>
+          <column width="-1" hidden="1" name="FCLASS_FR" type="field"/>
+          <column width="-1" hidden="1" name="FCLASS_RU" type="field"/>
+          <column width="-1" hidden="1" name="FCLASS_ES" type="field"/>
+          <column width="-1" hidden="1" name="FCLASS_CN" type="field"/>
+          <column width="-1" hidden="1" name="FCLASS_TW" type="field"/>
+          <column width="-1" hidden="1" name="FCLASS_IN" type="field"/>
+          <column width="-1" hidden="1" name="FCLASS_NP" type="field"/>
+          <column width="-1" hidden="1" name="FCLASS_PK" type="field"/>
+          <column width="-1" hidden="1" name="FCLASS_DE" type="field"/>
+          <column width="-1" hidden="1" name="FCLASS_GB" type="field"/>
+          <column width="-1" hidden="1" name="FCLASS_BR" type="field"/>
+          <column width="-1" hidden="1" name="FCLASS_IL" type="field"/>
+          <column width="-1" hidden="1" name="FCLASS_PS" type="field"/>
+          <column width="-1" hidden="1" name="FCLASS_SA" type="field"/>
+          <column width="-1" hidden="1" name="FCLASS_EG" type="field"/>
+          <column width="-1" hidden="1" name="FCLASS_MA" type="field"/>
+          <column width="-1" hidden="1" name="FCLASS_PT" type="field"/>
+          <column width="-1" hidden="1" name="FCLASS_AR" type="field"/>
+          <column width="-1" hidden="1" name="FCLASS_JP" type="field"/>
+          <column width="-1" hidden="1" name="FCLASS_KO" type="field"/>
+          <column width="-1" hidden="1" name="FCLASS_VN" type="field"/>
+          <column width="-1" hidden="1" name="FCLASS_TR" type="field"/>
+          <column width="-1" hidden="1" name="FCLASS_ID" type="field"/>
+          <column width="-1" hidden="1" name="FCLASS_PL" type="field"/>
+          <column width="-1" hidden="1" name="FCLASS_GR" type="field"/>
+          <column width="-1" hidden="1" name="FCLASS_IT" type="field"/>
+          <column width="-1" hidden="1" name="FCLASS_NL" type="field"/>
+          <column width="-1" hidden="1" name="FCLASS_SE" type="field"/>
+          <column width="-1" hidden="1" name="FCLASS_BD" type="field"/>
+          <column width="-1" hidden="1" name="FCLASS_UA" type="field"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <reuseLastValue/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression>"NAME"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>

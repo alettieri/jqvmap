@@ -25,7 +25,15 @@ class JQVMap:
     self.bbox = []
 
   def addPath(self, path, code, name):
+    
+    if code == "-99":
+      code = "kn"
+      print(code)
+      print(name)
+    if code == "kn":
+      print("yeah")
     self.paths[code] = {"path": path, "name": name}
+    
 
   def getJSCode(self):
     map = {"paths": self.paths, "width": self.width, "height": self.height, "insets": self.insets, "projection": self.projection}
@@ -40,7 +48,7 @@ class Converter:
       'buffer_distance': -0.4,
       'simplify_tolerance': 0.2,
       'longitude0': 0,
-      'projection': 'mill',
+      'projection': 'moll',
       'name': 'world',
       'width': 900,
       'left': 0,
@@ -90,7 +98,7 @@ class Converter:
     self.simplify_tolerance = args.get('simplify_tolerance')
     self.for_each = args.get('for_each')
     self.emulate_longitude0 = args.get('emulate_longitude0')
-    if args.get('emulate_longitude0') is None and (self.projection == 'merc' or self.projection =='mill') and self.longitude0 != 0:
+    if args.get('emulate_longitude0') is None and (self.projection == 'merc' or self.projection == 'mill') and self.longitude0 != 0:
       self.emulate_longitude0 = True
 
     if args.get('viewport'):
@@ -150,7 +158,6 @@ class Converter:
       "height": insetHeight
     })
     self.map.projection = {"type": self.projection, "centralMeridian": float(self.longitude0)}
-
     open(output_file, 'w').write( self.map.getJSCode() )
 
     if self.for_each is not None:
