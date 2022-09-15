@@ -48,7 +48,7 @@ class Converter:
       'buffer_distance': -0.4,
       'simplify_tolerance': 0.2,
       'longitude0': 0,
-      'projection': 'moll',
+      'projection': 'mill',
       'name': 'world',
       'width': 900,
       'left': 0,
@@ -238,7 +238,7 @@ class GeometryProperty(Variable):
 class DataSource:
   def __init__(self, config):
     default_config = {
-      "projection": "merc",
+      "projection": "mill",
       "longitude0": 0
     }
     default_config.update(config)
